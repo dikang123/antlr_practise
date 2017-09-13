@@ -15,6 +15,7 @@ expr : expr ('*'|'/') expr
      | '(' expr ')'
      ;
 
+// ID : identifier，标识符，其实就是变量名
 ID : [a-zA-Z]+;
 INT : [0-9]+;
 NEWLINE : '\r' ? '\n';
